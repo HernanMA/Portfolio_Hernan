@@ -234,7 +234,7 @@ section {
     text-transform: capitalize;
     position: absolute;
     top: 0px;
-    left: 45.5%;
+    left: 44%;
     z-index: 100;
 }
 
@@ -349,8 +349,6 @@ section {
     width: 200px;
     height: 280px;
     transform: translateX(30px);
-
-
 }
 
 .box3 .col-1 img:nth-child(2) {
@@ -402,7 +400,7 @@ footer {
     font-family: w;
     width: 450px;
     position: relative;
-    height: 160px;
+    height: 10px;
     overflow: hidden;
 }
 
@@ -448,7 +446,6 @@ footer {
     width: 100vw;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /* opacity: 0; */
 }
 
 
@@ -484,7 +481,6 @@ footer {
 
 
 .right-side {
-    /* background-color: blue; */
     margin: auto;
     width: 150px;
     height: 150px;
@@ -525,22 +521,49 @@ li {
     transition-delay: 0.2s;
 }
 
-#lii.github {
-    border: 2px solid #ffffff;
-    color: #ffffff;
-}
-
 #lii.github:hover {
     box-shadow: 0px 0px 7px #ffffff inset, 0px 0px 7px #ffffff;
+}
+
+#lii.instagram:hover {
+    box-shadow: 0px 0px 7px #98228b inset, 0px 0px 7px #a53198;
+}
+
+#lii.twitter:hover {
+    box-shadow: 0px 0px 7px #227fbd inset, 0px 0px 7px #25c2de;
+}
+
+#lii.youtube:hover {
+    box-shadow: 0px 0px 7px #d21919 inset, 0px 0px 7px #da0909;
+}
+
+#lii.facebook:hover {
+    box-shadow: 0px 0px 7px #2c42b1 inset, 0px 0px 7px #3f4ed4;
 }
 
 #lii.github .icon {
     transition: 0.6s;
 }
 
-#lii.github:hover .icon1 {
-    transform: rotateY(360deg);
-    text-shadow: 0px 0px 1px #ff0095;
+#lii.instagram .icon {
+    transition: 0.6s;
+}
+
+#lii.twitter .icon {
+    transition: 0.6s;
+}
+
+#lii.youtube .icon {
+    transition: 0.6s;
+}
+
+#lii.facebook .icon {
+    transition: 0.6s;
+}
+
+.github {
+    border: 2px solid #ffffff;
+    color: #ffffff;
 }
 
 .instagram {
@@ -563,22 +586,27 @@ li {
     color: #0679e6;
 }
 
-li:hover .icon2 {
+#lii.github:hover .icon1 {
+    transform: rotateY(360deg);
+    text-shadow: 0px 0px 1px #ff0095;
+}
+
+#lii.instagram:hover .icon2 {
     transform: rotateY(360deg);
     text-shadow: 0px 0px 1px #1c9ff1;
 }
 
-li:hover .icon3 {
+#lii.twitter:hover .icon3 {
     transform: rotateY(360deg);
     text-shadow: 0px 0px 1px #ff0000;
 }
 
-li:hover .icon4 {
+#lii.youtube:hover .icon4 {
     transform: rotateY(360deg);
     text-shadow: 0px 0px 1px #0679e6;
 }
 
-li:hover .icon5 {
+#lii.facebook:hover .icon5 {
     transform: rotateY(360deg);
     text-shadow: 0px 0px 1px #ffffff;
 }
