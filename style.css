@@ -83,6 +83,18 @@ a {
     text-transform: uppercase;
 }
 
+.menu li a:hover {
+    box-shadow: 8px 8px 8px  rgba(1, 1, 1, 2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.menu li a {
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+
 .wrapper {
     display: flex;
 }
