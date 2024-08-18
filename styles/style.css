@@ -696,12 +696,13 @@ li {
 section.hero {
     width: 100vw;
     height: 100vh;
-    background: url(./media/titulo.jpg) no-repeat 50% 50%;
+    background: url(/media/titulo.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .hero #h1-f {
     font-family: "PP Editorial Old";
@@ -780,7 +781,7 @@ section.info {
 
 section.pinned {
     position: absolute;
-    top: 625vh;
+    top: 620vh;
     width: 100%;
     height: 250vh;
     z-index: 2;
