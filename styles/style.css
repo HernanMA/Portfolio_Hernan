@@ -11,10 +11,10 @@
     src: url(./fonts/AntonSC-Regular.ttf);
 }
 
-
 body {
     color: #fff;
-    font-family: 'Lato', sans-serif;
+    font-family: w;
+    src: url(./fonts/AntonSC-Regular.ttf);
     overflow-x: hidden;
     background-color: #000000;
 }
@@ -69,6 +69,11 @@ li {
 a {
     color: #fff;
     text-decoration: none;
+}
+
+.proje {
+    font-size: 60px;
+    text-align: center;
 }
 
 .menu {
@@ -126,6 +131,11 @@ section {
     /* object-fit: cover; */
 }
 
+.about {
+    font-size: 60px;
+    text-align: center;
+}
+
 .section {
     background-color: #000000;
     padding: 7rem;
@@ -135,6 +145,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 8rem;
+    margin-top: 6rem;
 }
 
 .columns {
