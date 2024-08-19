@@ -72,7 +72,7 @@ a {
 }
 
 .proje {
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -132,7 +132,7 @@ section {
 }
 
 .about {
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -266,10 +266,11 @@ section {
 }
 
 .col-2 span {
-    font-size: 8px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 3px;
     opacity: .7;
+    font-weight: bold;
 }
 
 .line {
@@ -301,21 +302,21 @@ section {
 }
 
 .text-box p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.9;
     padding-bottom: 1rem;
     opacity: .7;
 }
 
 .text-box2 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.9;
     padding-bottom: 2.5rem;
     opacity: .7;
 }
 
 .text-box4 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.9;
     padding-bottom: 1rem;
     opacity: .7;
@@ -699,9 +700,11 @@ li {
 
 #h1-f {
     text-transform: uppercase;
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 400;
     letter-spacing: -4px;
+    font-family: w;
+    src: url(./fonts/AntonSC-Regular.ttf);
 }
 
 section.hero {
@@ -716,10 +719,11 @@ section.hero {
 
 
 .hero #h1-f {
-    font-family: "PP Editorial Old";
     font-weight: lighter;
     color: #fff;
     text-align: center;
+    font-family: w;
+    src: url(./fonts/AntonSC-Regular.ttf);
 }
 
 section.info {
@@ -771,10 +775,12 @@ section.info {
 }
 
 .header-info p {
+    margin: 0rem 10rem 30rem 10rem;
     padding: 1em;
-    font-family: "PP Editorial Old";
-    font-size: 46px;
-    font-weight: lighter;
+    font-size: 18px;
+    opacity: .7;
+    font-family: w;
+    src: url(./fonts/AntonSC-Regular.ttf);
 }
 
 .header-images {
@@ -847,7 +853,60 @@ section.website-content {
 .website-content #h1-f {
     font-size: 72px;
     letter-spacing: 0;
+    font-family: w;
+    src: url(./fonts/AntonSC-Regular.ttf);
 }
+
+.website-content #h1-f {
+    text-align: center;
+}
+
+#Objetive-title {
+    text-align: center;
+    font-size: 70px;
+    font-family: w;
+    src: url(./fonts/AntonSC-Regular.ttf);
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px; 
+}
+
+.contenedor-objetos h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.contenedor-objetos p {
+    text-align: center;
+    font-size: 18px;
+    opacity: .7;
+}
+
+.contenedor-objetos {
+    margin: 0rem 5rem 0rem 5rem;
+    flex: 1; 
+    padding: 10px;
+}
+
+.contenedor-objetos h2 {
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 900px) {
     .hero #h1-f {
