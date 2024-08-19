@@ -480,8 +480,6 @@ footer {
     transform: translateY(70px);
 }
 
-
-
 .text-container {
     max-width: 260px;
 }
@@ -491,7 +489,6 @@ footer {
     line-height: 1.4;
     opacity: .8;
 }
-
 
 .right-side {
     margin: auto;
@@ -845,7 +842,7 @@ section.whitespace {
 section.website-content {
     position: relative;
     width: 100%;
-    height: 150vh;
+    height: 250vh;
     background-color: #000000;
     z-index: 10;
 }
@@ -859,6 +856,7 @@ section.website-content {
 
 .website-content #h1-f {
     text-align: center;
+    font-size: 120px;
 }
 
 #Objetive-title {
@@ -894,19 +892,102 @@ section.website-content {
     margin-top: 0;
 }
 
+.contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
 
+.contenedor2-objetos {
+    flex: 1 1 33.333%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.contenedor2-contenido {
+    position: relative;
+    width: 70%;
+    text-align: center;
+    overflow: hidden;
+}
 
+.contenedor2-contenido h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.2rem;
+    margin: 0;
+    z-index: 1;
+    text-shadow: 2px 2px 4px black; 
+    transition: color 0.3s ease; 
+}
 
+.contenedor2-contenido img {
+    width: 100%;
+    display: block;
+    filter: brightness(50%);
+    transition: filter 0.3s ease, transform 0.3s ease; 
+}
 
+.contenedor2-contenido:hover img {
+    filter: brightness(50%) hue-rotate(180deg);
+    transform: scale(1.05);
+}
 
+.contenedor2-contenido:hover h1 {
+    color: #0e85a9; 
+}
 
+.titulo-servic h1 {
+    font-size: 130px;
+    text-align: center;
+    margin: 12rem 0rem 3rem 0rem;
+}
 
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 13rem 0rem 2rem 8rem;
+    max-width: 1200px;
+}
 
+.contact-me {
+    font-size: 7rem;
+    font-weight: bold;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+}
 
+.ull2 {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+#lii {
+    margin-left: 30px; 
+    padding: 10%;
+}
 
+.icon1, .icon2, .icon3, .icon4, .icon5 {
+    color: #ffffff;
+    font-size: 1.8rem; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
 
+.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover, .icon5:hover {
+    color: #ffffff; 
+    transform: scale(1.2); 
+}
 
 @media (max-width: 900px) {
     .hero #h1-f {
@@ -940,7 +1021,6 @@ section.website-content {
     }
 }
 
-/* lenis */
 html.lenis,
 html.lenis body {
     height: auto;
