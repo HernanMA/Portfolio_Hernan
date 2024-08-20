@@ -223,6 +223,7 @@ section {
 .box4 .col-3 img:first-child {
     width: 320px;
     height: 170px;
+    filter: brightness(40%);
 }
 
 .box4 .col-3 img:nth-child(2) {
@@ -1008,44 +1009,6 @@ section.website-content {
     transform: scale(1.2);
 }
 
-@media (max-width: 900px) {
-
-    @font-face {
-        font-family: w;
-        src: url(./fonts/AntonSC-Regular.ttf);
-    }
-
-    .hero #h1-f {
-        font-size: 42px;
-        letter-spacing: 0;
-    }
-
-    .header-row {
-        height: 100px;
-    }
-
-    .header-row #h1-f {
-        font-size: 60px;
-        letter-spacing: 0;
-    }
-
-    .revealer {
-        left: 50% !important;
-        width: 100px;
-        height: 100px;
-        margin-top: 400px;
-    }
-
-    .header-info p {
-        font-size: 24px;
-    }
-
-    .website-content #h1-f {
-        font-size: 48px;
-        padding: 1em;
-    }
-}
-
 html.lenis,
 html.lenis body {
     height: auto;
@@ -1289,9 +1252,183 @@ html.lenis body {
         margin-top: -2rem;
     }
 
-    .
+    .colum3 h1{
+        margin-top: -1rem;
+        margin-left: -9rem;
+    }
+
+    .text-box4 {
+        margin: 2rem 5rem 0rem 9rem;
+    }
+
+    #database {
+        margin-bottom: -4rem;
+    }
+
+    .colum3 #lii {
+        margin-left: -6.5rem;
+    }
+
+    .colum4 h1 {
+        margin-top: -3rem;
+    }
+
+    .colum4 span {
+        margin-top: 2rem;
+    }
+
+    .colum4 #lii{
+        margin-left: -11.5rem;
+    }
+
+    .spaan {
+        margin: 23rem;
+    }
+
+    .colum5 h1 {
+        margin: 0rem 2rem 0rem 2rem;
+    }
+
+    #textito {
+        margin-top: 5rem;
+    }
+
+    #linea {
+        margin: 2rem;
+    }
+
+    .colum5 #lii i{
+        margin-left: 11.5rem;
+    }
+
+    .header-row #h1-f{
+        font-size: 30px;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contenedor-objetos {
+        margin: 0 1rem;
+        padding: 5px;
+    }
+
+    .contenedor-objetos h2 {
+        font-size: 2rem;
+    }
+
+    .contenedor-objetos p {
+        font-size: 16px;
+    }
+
+    .header-info {
+        height: auto;
+        justify-content: flex-start;
+        padding: 1em;
+    }
+
+    .header-info p {
+        margin: 1rem 1rem 2rem 1rem;
+        font-size: 16px;
+    }
+
+    .header-images {
+        flex-direction: column;
+        height: auto;
+        gap: 0.5em;
+    }
+
+    #img-f {
+        height: auto;
+    }
+
+    .img {
+        width: 100%;
+    }
+    
+    #h1-f {
+        font-size: 80px;
+    }
+    
+    .revealer {
+        width: 1rem;
+        height: 3rem;
+    }
+
+    .website-content #h1-f {
+        font-size: 25px;
+        display: none;
+    }
+
+    .website-content .contenedor {
+        margin-top: 4rem;
+    }
+
+    .contenedor2-objetos {
+        flex: 1 1 100%; 
+    }
+
+    .contenedor2-contenido {
+        width: 90%;
+    }
+
+    .contenedor2-contenido h1 {
+        font-size: 1.8rem;
+    }
+
+    .contenedor2-contenido img {
+        filter: brightness(60%); 
+    }
+
+    .titulo-servic h1 {
+        font-size: 5rem;
+    }
+
+    section.website-content {
+        width: 100%;
+        height: 470vh;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .contact-me {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .ull2 {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+
+    }
+
+    #lii {
+        margin-left: 0;
+        padding: 5%;
+        row-gap: 2rem;
+
+    }
+
+    .icon1,
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5 {
+        font-size: 2.5rem;
+        margin: 10px 0;
+    }
+
+    .github {
+        border: 2px solid #ffffff;
+        color: #ffffff;
+    }
+    
+    
 }
-
-
-
-
