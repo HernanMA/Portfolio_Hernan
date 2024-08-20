@@ -1388,7 +1388,7 @@ html.lenis body {
 
     section.website-content {
         width: 100%;
-        height: 450vh;
+        height: 480vh;
     }
 
     .contact-section {
@@ -1406,26 +1406,20 @@ html.lenis body {
         flex-direction: column;
         align-items: center;
         row-gap: 1.5rem;
-
     }
 
-    #lii {
+    #lii.contact-icon {
         margin-left: 0;
         padding: 5%;
         row-gap: 2rem;
-
     }
 
-    .icon1,
-    .icon2,
-    .icon3,
-    .icon4,
-    .icon5 {
+    .contact-section .contact-icon {
         font-size: 2.5rem;
         margin: 10px 0;
     }
 
-    .github {
+    .contact-section .github {
         border: 2px solid #ffffff;
         color: #ffffff;
     }
