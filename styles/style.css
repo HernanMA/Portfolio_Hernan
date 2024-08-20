@@ -19,6 +19,9 @@ body {
     background-color: #000000;
 }
 
+.imagen-query {
+    display: none;
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -116,19 +119,21 @@ section {
     object-fit: cover;
     z-index: -2;
     position: relative;
+    overflow: hidden;
 }
 
 .img-container {
     position: absolute;
     top: 0;
+    left: 0;
     height: 100vh;
     width: 100vw;
+    z-index: -1;
 }
 
 .img {
     height: 100%;
     width: 100%;
-    /* object-fit: cover; */
 }
 
 .about {
@@ -139,6 +144,10 @@ section {
 .section {
     background-color: #000000;
     padding: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .boxes-container {
@@ -182,6 +191,7 @@ section {
 
 .box1 .col-3 img:nth-child(2) {
     width: 150px;
+    height: 300px;
     filter: drop-shadow(10px 10px 10px rgba(255, 255, 255, 0.5));
 }
 
@@ -387,7 +397,6 @@ section {
     width: 400px;
     height: auto;
     filter: drop-shadow(20px 20px 20px rgba(183, 23, 23, 0.5));
-
 }
 
 footer {
@@ -488,7 +497,8 @@ footer {
 .text-container p {
     padding-bottom: 1rem;
     line-height: 1.4;
-    opacity: .8;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 .right-side {
@@ -796,7 +806,7 @@ section.info {
 
 section.pinned {
     position: absolute;
-    top: 620vh;
+    top: 700vh;
     width: 100%;
     height: 250vh;
     z-index: 2;
@@ -999,6 +1009,12 @@ section.website-content {
 }
 
 @media (max-width: 900px) {
+
+    @font-face {
+        font-family: w;
+        src: url(./fonts/AntonSC-Regular.ttf);
+    }
+
     .hero #h1-f {
         font-size: 42px;
         letter-spacing: 0;
@@ -1050,4 +1066,232 @@ html.lenis body {
 .lenis.lenis-smooth iframe {
     pointer-events: none;
 }
+
+
+@media (max-width: 430px) {
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .col-2 {
+        max-width: 100%;
+    }
+
+    .col img {
+        max-width: 100%;
+    }
+
+    .text-box p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .icons-vertical i {
+        font-size: 20px;
+    }
+}
+
+@media (width < 600px){
+
+    body {
+        font-family: w;
+    src: url(./fonts/AntonSC-Regular.ttf);
+
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    header {
+        display: none;
+
+    }
+    .img {
+        width: 100%;
+    }
+
+    #title-prin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .left {
+        margin-left: 44rem;
+        margin-top: -11rem;
+        font-size: 50px;
+        bottom: 17rem;
+    }
+
+    .sm {
+        font-size: 50px;
+        margin-right: 2rem;
+        margin-top: -5rem;
+    }
+
+    .n {
+        margin-right: -25rem;
+        margin-bottom: 18rem;
+        z-index: 5;
+        font-size: 50px;
+    }
+
+    .right {
+        margin-left: -20rem;
+        margin-top: -18rem;
+        z-index: 5;
+        font-size: 50px;
+    }
+
+    .imagen-query {
+        display: block;
+    }
+
+    #imagen-prime {
+        display: none;
+    }
+    
+    .left-side{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tv .bg {
+        margin-right: 3rem;
+        margin-top: 27rem;
+        font-size: 80px;
+    }
+
+    .tv .sm {
+        margin-top: 29rem;
+        margin-right: -7rem;
+    }
+
+    .tv .bg {
+        margin-left: -4rem;
+    }
+
+    .right-side {
+        display: none;
+    }
+
+    .wrapper {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: darkgreen 3px solid;
+    }
+
+    .section {
+        margin: 0;
+        padding: 0;
+    }
+
+    .boxes-container {
+        margin: 0;
+    }
+
+    .col-1 img{
+        display: none;
+    }
+
+    .col-3 img {
+        display: none;
+    }
+
+    .col-2 h1 {
+        font-size: 60px;
+        margin-top: 2rem;
+        margin-left: -5rem;
+    }
+
+    #me-section {
+        margin-top: 4rem;
+    }
+    .col-2 span {
+        font-size: 12px;
+        margin: 12rem;
+        
+    }
+
+    .text-box {
+        margin: 0rem 8rem 0rem 8rem;
+    }
+
+    .icons-vertical i {
+    font-size: 2.7rem;
+    }
+
+    .proje h1{
+        font-size: 60px;
+    }
+
+    .text-box2 p {
+        margin: 0rem 8rem 0rem 8rem;
+    }
+
+    .line2 {
+        margin: 3rem 0rem 4rem 0rem;
+    }
+
+    .Elon {
+        display: none;
+    }
+
+    .icon1 {
+        font-size: 3.5rem;
+        margin-left: 10rem;
+        border: none;
+    }
+    
+    .github {
+        border: none;
+    }
+
+    #lii.github:hover .icon1 {
+        transform: rotateY(360deg);
+        text-shadow: none;
+    }
+
+    #lii.github:hover {
+        box-shadow: none;
+    }
+    
+    .colum2 h1 {
+        margin-left: -8rem;
+    }
+
+    .line3 {
+        margin: 3rem;
+    }
+
+    .colum2 #lii {
+        margin-left: -5rem;
+    }
+
+    .colum2 {
+        margin-top: -2rem;
+    }
+
+    .
+}
+
+
+
 

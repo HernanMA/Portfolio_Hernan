@@ -36,12 +36,13 @@
                 <video src="./media/video.mp4" autoplay loop muted></video>
             </div>
             <div class="img-container">
-                <img src="./media/window.png" alt="" class="img">
+                <img id="imagen-prime" src="./media/window.png" alt="" class="img">
+                <img class="imagen-query" src="/media/window2.png" alt="">
             </div>
 
             <div class="text-content">
                 <div class="img_txt">
-                    <div class="title sm left">
+                    <div id="title-prin" class="title sm left">
                         <span> Transforming </span>
                     </div>
                     <div class="title bg left">
@@ -85,11 +86,8 @@
             </div>
         </section>
 
-        
         <section class="section">
-            <div class="about" id="me-section">
-                <h1>About me</h1>
-            </div>
+            
             <div class="boxes-container">
                 <div class="columns box1">
                     <div class="col col-1">
@@ -97,7 +95,7 @@
                         <img src="/media/estafue.jpg" alt="">
                     </div>
                     <div class="col-2">
-                        <h1> Hernan </h1>
+                        <h1 id="me-section"> Hernan </h1>
                         <span> Software Developer </span>
                         <div class="line"></div>
                         <div class="text-box">
@@ -145,7 +143,7 @@
                     </div>
                     <div class="col-2">
                         <h1> Space X </h1>
-                        <span> <br><br> Elon Musk API</span>
+                        <span class="Elon"> <br><br> Elon Musk API</span>
                         <div class="line2"></div>
                         <div class="text-box2">
                             <p>
@@ -177,7 +175,7 @@
                         <img src="/media/log.png" alt="">
                         <img src="/media/ASTRO.png" alt="">
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 colum2">
                         <h1> Campuslands </h1>
                         <span> Landing Page </span>
                         <div class="line3"></div>
@@ -448,6 +446,11 @@
             <div id="contact" class="contact-section">
                 <div class="contact-me">Contact Me</div>
                 <ul class="ull2">
+                    <li id="lii" class="twitter">
+                        <a href="https://wa.me/573206800519?text=Hola%20Hernan,%20he%20visto%20tu%20portafolio%20y%20me%20gustaría%20saber%20más%20sobre%20tus%20proyectos." target="_blank">
+                            <i class="fa-brands fa-whatsapp icon3 icon"></i>
+                        </a>
+                    </li>
                     <li id="lii" class="github">
                         <a href="https://github.com/HernanMA" target="_blank">
                             <i class="fa-brands fa-github icon1 icon"></i>
@@ -473,16 +476,15 @@
                             <i class="fa-brands fa-google icon1 icon"></i>
                         </a>
                     </li>
-                    <li id="lii" class="twitter">
-                        <a href="https://wa.me/573206800519?text=Hola%20Hernan,%20he%20visto%20tu%20portafolio%20y%20me%20gustaría%20saber%20más%20sobre%20tus%20proyectos." target="_blank">
-                            <i class="fa-brands fa-whatsapp icon3 icon"></i>
-                        </a>
-                    </li>
                 </ul>
             </div>
         </section>
     </div>
 
+
+    <script>
+        
+    </script>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>

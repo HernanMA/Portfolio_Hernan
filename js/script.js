@@ -194,3 +194,37 @@ ScrollTrigger.create({
     });
   },
 });
+
+
+
+
+
+
+
+
+gsap.matchMedia().add("(max-width: 600px)", () => {
+  const tlSmall = gsap.timeline();
+
+  tlSmall.from('.left-side div', {
+    y: 50,  
+    opacity: 0,
+    stagger: {
+      amount: .2 
+    },
+    delay: .1  
+  }).from('.right-side', { 
+    opacity: 0, 
+    duration: 2
+  }, .2)
+  .to('.wrapper', { x: -window.innerWidth * 1.02 }); 
+
+  ScrollTrigger.create({
+    animation: tlSmall,
+    trigger: 'header',
+    start: "top top",
+    end: "+=600", 
+    scrub: 1,
+    pin: true,
+    ease: "powe1.inOut"
+  });
+});
