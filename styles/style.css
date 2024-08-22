@@ -709,7 +709,7 @@ li {
 
 #h1-f {
     text-transform: uppercase;
-    font-size: 120px;
+    font-size: 100px;
     font-weight: 400;
     letter-spacing: -4px;
     font-family: w;
@@ -728,6 +728,7 @@ section.hero {
 
 
 .hero #h1-f {
+    font-size: 3.5rem;
     font-weight: lighter;
     color: #fff;
     text-align: center;
@@ -1123,6 +1124,7 @@ html.lenis body {
 
     .imagen-query {
         display: block;
+        margin-top: -2.6rem;
     }
 
     #imagen-prime {
@@ -1158,7 +1160,6 @@ html.lenis body {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        border: darkgreen 3px solid;
     }
 
     .section {
