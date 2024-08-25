@@ -728,7 +728,7 @@ section.hero {
 
 
 .hero #h1-f {
-    font-size: 3.5rem;
+    font-size: 7rem;
     font-weight: lighter;
     color: #fff;
     text-align: center;
@@ -1425,5 +1425,12 @@ html.lenis body {
         color: #ffffff;
     }
     
-    
+    .hero #h1-f {
+        font-size: 3.5rem;
+        font-weight: lighter;
+        color: #fff;
+        text-align: center;
+        font-family: w;
+        src: url(./fonts/AntonSC-Regular.ttf);
+    }
 }
