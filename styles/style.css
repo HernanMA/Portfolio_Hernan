@@ -719,7 +719,7 @@ li {
 section.hero {
     width: 100vw;
     height: 100vh;
-    background: url(/media/titulo.jpg);
+    background: url(./media/titulo.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
